@@ -1,3 +1,5 @@
 rootProject.name = 'HelloWorldExample'
 
 include ':app'
+include ':react-native-helloworld'
+project(':react-native-helloworld').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-helloworld/android')
